@@ -1,0 +1,25 @@
+{
+  "name": "com.avamp.vip-door.Editor",
+  "rootNamespace": "AVAMP.VipDoor.Editor",
+  "references": [
+    "com.avamp.vip-door",
+    "VRC.SDK3",
+    "VRC.SDKBase",
+    "VRC.Udon",
+    "VRC.Udon.Editor",
+    "UdonSharp.Runtime",
+    "UdonSharp.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
+
