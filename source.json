@@ -18,8 +18,7 @@
           },
           "url": "https://github.com/AVAMP-VRC/avamp-vcc/releases/download/v2.1.0/com.avamp.vip-door-2.1.0.zip",
           "vpmDependencies": {
-            "com.vrchat.worlds": ">=3.5.0",
-            "com.vrchat.udonsharp": ">=1.2.0"
+            "com.vrchat.worlds": ">=3.5.0"
           },
           "legacyFolders": {},
           "keywords": [
@@ -48,8 +47,7 @@
           },
           "url": "https://github.com/AVAMP-VRC/avamp-vcc/releases/download/v2.1.0/com.avamp.supporter-board-2.1.0.zip",
           "vpmDependencies": {
-            "com.vrchat.worlds": ">=3.5.0",
-            "com.vrchat.udonsharp": ">=1.2.0"
+            "com.vrchat.worlds": ">=3.5.0"
           },
           "legacyFolders": {},
           "keywords": [
