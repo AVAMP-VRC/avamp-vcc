@@ -1,25 +1,28 @@
-# AVAMP Official VCC Repository
+# AVAMP Unity Packages
 
-The official VRChat Creator Companion repository for AVAMP tools.
+Official Unity packages for AVAMP tools. Download and import directly into your Unity project.
 
-## 📦 Included Packages
+## 📦 Available Packages
 
 ### 📋 [AVAMP Supporter Board](https://avamp.shop/wiki/unity-setup)
 Display your supporters in beautiful in-world boards with automatic pagination, tier grouping, and custom colors.
 
+**Download:** [AVAMP_Supporter_Board.unitypackage](https://github.com/AVAMP-VRC/avamp-vcc/raw/main/Board-Unity/AVAMP_Supporter_Board.unitypackage)
+
 ### 🚪 [AVAMP VIP Door](https://avamp.shop/wiki/unity-setup)
 VIP access control system. Checks player names against your supporter list and grants access with teleportation support.
 
+**Download:** [Avamp_VIP_Door_Teleport.unitypackage](https://github.com/AVAMP-VRC/avamp-vcc/raw/main/VIP-Unity/Avamp_VIP_Door_Teleport.unitypackage)
+
 ## 🚀 Installation
 
-### [Click here to Add to VCC](https://avamp-vrc.github.io/avamp-vcc/)
+1. Download the Unity package (.unitypackage file) you need
+2. Open your Unity project
+3. Go to **Assets** → **Import Package** → **Custom Package**
+4. Select the downloaded .unitypackage file
+5. Click **Import** and wait for the import to complete
 
-OR
-
-1. Open VRChat Creator Companion
-2. Go to **Settings** → **Packages** → **Add Repository**
-3. Enter: `https://avamp-vrc.github.io/avamp-vcc/source.json`
-4. Click **Add**
+For detailed setup instructions, visit the [Unity Setup Guide](https://avamp.shop/wiki/unity-setup).
 
 ---
 

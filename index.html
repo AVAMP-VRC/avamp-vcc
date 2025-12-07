@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AVAMP Official VCC Repository</title>
+    <title>AVAMP Unity Packages</title>
     <style>
         * {
             margin: 0;
@@ -62,32 +62,6 @@
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
         }
         
-        .vcc-button {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.75rem;
-            background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
-            color: white;
-            font-size: 1.5rem;
-            font-weight: 700;
-            padding: 1.25rem 2.5rem;
-            border: none;
-            border-radius: 16px;
-            cursor: pointer;
-            text-decoration: none;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4);
-        }
-        
-        .vcc-button:hover {
-            transform: translateY(-4px) scale(1.02);
-            box-shadow: 0 10px 30px rgba(124, 58, 237, 0.6);
-        }
-        
-        .vcc-button svg {
-            width: 32px;
-            height: 32px;
-        }
         
         .packages-grid {
             display: grid;
@@ -147,32 +121,6 @@
             line-height: 1.5;
         }
         
-        .manual-install {
-            background: rgba(0, 0, 0, 0.2);
-            border-radius: 12px;
-            padding: 1rem;
-            margin-top: 2rem;
-            font-family: 'Consolas', 'Monaco', monospace;
-            color: #a1a1aa;
-            font-size: 0.9rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .copy-btn {
-            background: rgba(255, 255, 255, 0.1);
-            border: none;
-            color: white;
-            padding: 0.5rem 1rem;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 0.8rem;
-        }
-        
-        .copy-btn:hover {
-            background: rgba(255, 255, 255, 0.2);
-        }
         
         .footer {
             text-align: center;
@@ -194,26 +142,18 @@
     <div class="container">
         <div class="header">
             <div class="logo">⚡</div>
-            <h1>AVAMP Official Repo</h1>
-            <p class="subtitle">The complete monetization suite for VRChat worlds</p>
+            <h1>AVAMP Unity Packages</h1>
+            <p class="subtitle">Download Unity packages directly - no setup required</p>
         </div>
         
         <div class="main-card">
-            <a href="vcc://vpm/addRepo?url=https://avamp-vrc.github.io/avamp-vcc/source.json" class="vcc-button">
-                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-                Add to VCC
-            </a>
-            <p style="color: #a1a1aa; margin-top: 1.5rem;">
-                Click to add the repository to VRChat Creator Companion.<br>
-                Then manage your project to add individual packages.
+            <p style="color: #a1a1aa; margin-bottom: 2rem;">
+                Download Unity packages directly and import them into your Unity project.<br>
+                No VCC setup required!
             </p>
-            
-            <div class="manual-install">
-                <span>https://avamp-vrc.github.io/avamp-vcc/source.json</span>
-            </div>
         </div>
         
-        <h2 style="color: #fff; margin-bottom: 1rem;">📦 Included Packages</h2>
+        <h2 style="color: #fff; margin-bottom: 1rem;">📦 Available Packages</h2>
         
         <div class="packages-grid">
             <div class="package-card">
@@ -226,6 +166,9 @@
                 <p class="package-desc">
                     Display your supporters in beautiful in-world boards with automatic pagination, tier grouping, and custom colors.
                 </p>
+                <a href="https://github.com/AVAMP-VRC/avamp-vcc/raw/main/Board-Unity/AVAMP_Supporter_Board.unitypackage" download style="display: inline-block; margin-top: 1rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: transform 0.2s ease;">
+                    Download Unity Package
+                </a>
             </div>
             
             <div class="package-card">
@@ -238,7 +181,21 @@
                 <p class="package-desc">
                     VIP access control system. Checks player names against your supporter list and grants access with teleportation support.
                 </p>
+                <a href="https://github.com/AVAMP-VRC/avamp-vcc/raw/main/VIP-Unity/Avamp_VIP_Door_Teleport.unitypackage" download style="display: inline-block; margin-top: 1rem; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: transform 0.2s ease;">
+                    Download Unity Package
+                </a>
             </div>
+        </div>
+        
+        <div style="background: rgba(0, 0, 0, 0.2); border-radius: 12px; padding: 1.5rem; margin-top: 2rem; text-align: center;">
+            <h3 style="color: #fff; margin-bottom: 0.75rem;">📥 How to Install</h3>
+            <ol style="color: #a1a1aa; text-align: left; display: inline-block; line-height: 2;">
+                <li>Download the Unity package (.unitypackage file)</li>
+                <li>Open your Unity project</li>
+                <li>Go to <strong style="color: #fff;">Assets → Import Package → Custom Package</strong></li>
+                <li>Select the downloaded .unitypackage file</li>
+                <li>Click <strong style="color: #fff;">Import</strong> and wait for completion</li>
+            </ol>
         </div>
         
         <div class="footer">
