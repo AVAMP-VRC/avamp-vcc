@@ -6,6 +6,31 @@
   "packages": {
     "com.avamp.vip-door": {
       "versions": {
+        "2.1.4": {
+          "name": "com.avamp.vip-door",
+          "displayName": "AVAMP VIP Door",
+          "version": "2.1.4",
+          "unity": "2022.3",
+          "description": "VIP access control system for VRChat worlds. Checks player names against your AVAMP supporter list and grants access through door hiding, visual effects, and optional teleportation.",
+          "author": {
+            "name": "AVAMP",
+            "url": "https://avamp.shop"
+          },
+          "url": "https://github.com/AVAMP-VRC/avamp-vcc/releases/download/v2.1.4/com.avamp.vip-door-2.1.4.zip",
+          "vpmDependencies": {
+            "com.vrchat.worlds": ">=3.5.0"
+          },
+          "legacyFolders": {},
+          "keywords": [
+            "vrchat",
+            "udon",
+            "vip",
+            "door",
+            "access",
+            "avamp"
+          ],
+          "license": "MIT"
+        },
         "2.1.3": {
           "name": "com.avamp.vip-door",
           "displayName": "AVAMP VIP Door",
@@ -35,6 +60,31 @@
     },
     "com.avamp.supporter-board": {
       "versions": {
+        "2.1.4": {
+          "name": "com.avamp.supporter-board",
+          "displayName": "AVAMP Supporter Board",
+          "version": "2.1.4",
+          "unity": "2022.3",
+          "description": "Display your AVAMP supporters in a beautiful in-world board with automatic pagination, tier grouping, custom colors, and smart page sizing.",
+          "author": {
+            "name": "AVAMP",
+            "url": "https://avamp.shop"
+          },
+          "url": "https://github.com/AVAMP-VRC/avamp-vcc/releases/download/v2.1.4/com.avamp.supporter-board-2.1.4.zip",
+          "vpmDependencies": {
+            "com.vrchat.worlds": ">=3.5.0"
+          },
+          "legacyFolders": {},
+          "keywords": [
+            "vrchat",
+            "udon",
+            "supporter",
+            "board",
+            "display",
+            "avamp"
+          ],
+          "license": "MIT"
+        },
         "2.1.3": {
           "name": "com.avamp.supporter-board",
           "displayName": "AVAMP Supporter Board",
