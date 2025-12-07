@@ -1,0 +1,34 @@
+{
+  "name": "com.avamp.vip-door",
+  "displayName": "AVAMP VIP Door",
+  "version": "2.1.3",
+  "unity": "2022.3",
+  "description": "VIP access control system for VRChat worlds. Checks player names against your AVAMP supporter list and grants access through door hiding, visual effects, and optional teleportation.",
+  "author": {
+    "name": "AVAMP",
+    "url": "https://avamp.shop"
+  },
+  "url": "https://github.com/AVAMP-VRC/avamp-vcc",
+  "changelogUrl": "https://github.com/AVAMP-VRC/avamp-vcc/blob/main/CHANGELOG.md",
+  "vpmDependencies": {
+    "com.vrchat.worlds": ">=3.5.0"
+  },
+  "legacyFolders": {},
+  "keywords": [
+    "vrchat",
+    "udon",
+    "vip",
+    "door",
+    "access",
+    "avamp",
+    "supporters"
+  ],
+  "license": "MIT",
+  "samples": [
+    {
+      "displayName": "VIP Door Prefab",
+      "description": "Ready-to-use VIP Door prefab with pre-configured components",
+      "path": "Samples~/VIPDoorPrefab"
+    }
+  ]
+}
